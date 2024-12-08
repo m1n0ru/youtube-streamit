@@ -1,7 +1,7 @@
 import streamlit as st
-import numpy as np
-import pandas as pd
-from PIL import Image
+#import numpy as np
+#import pandas as pd
+#from PIL import Image
 import time
 
 st.title  ('Stremlit 超入門')
@@ -45,20 +45,20 @@ text = st.text_input('あなたの趣味を教えてください')
 #'コンディション:', condition
 #'あなたの趣味:', text
 
-option = st.selectbox(
-    'あなたが好きな数字を教えてください',
-    list(range(1, 11))
-)
+#option = st.selectbox(
+#    'あなたが好きな数字を教えてください',
+#    list(range(1, 11))
+#)
+#
+#'あなたの好きな数字は', option, 'です'
 
-'あなたの好きな数字は', option, 'です'
 
+#st.write('Display Image')
 
-st.write('Display Image')
-
-if st.checkbox('Show Image'):
-    img = Image.open('IMG_2534.JPG')
-
-    st.image(img, caption='Jubilo', use_column_width=True)
+#if st.checkbox('Show Image'):
+#    img = Image.open('IMG_2534.JPG')
+#
+#    st.image(img, caption='Jubilo', use_column_width=True)
 
 #df = pd.DataFrame({
 #    '１列目': [1,2,3,4],
